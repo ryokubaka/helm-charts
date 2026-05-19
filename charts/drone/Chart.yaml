@@ -23,9 +23,9 @@ appVersion: "2.27.0"
 kubeVersion: ">=1.13.0-0"
 home: https://www.drone.io
 maintainers:
-  - name: burakince
-    email: burak.ince@linux.org.tr
-    url: https://www.burakince.com
+  - name: ryokubaka
+    email: ryokubaka@pm.me
+    url: https://github.com/ryokubaka
 sources:
   - https://github.com/community-charts/helm-charts
   - https://github.com/drone
@@ -62,8 +62,8 @@ annotations:
         - linux/arm64
   artifacthub.io/license: MIT
   artifacthub.io/maintainers: |
-    - name: burakince
-      email: burak.ince@linux.org.tr
+    - name: ryokubaka
+      email: ryokubaka@pm.me
   artifacthub.io/operator: "false"
   artifacthub.io/prerelease: "false"
   artifacthub.io/screenshots: |

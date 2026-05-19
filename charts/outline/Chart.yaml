@@ -14,7 +14,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.7.4
+version: 0.7.5
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
@@ -23,11 +23,11 @@ appVersion: "1.7.1"
 kubeVersion: ">=1.23.0-0"
 home: https://www.getoutline.com/
 maintainers:
-  - name: burakince
-    email: burak.ince@linux.org.tr
-    url: https://www.burakince.com
+  - name: ryokubaka
+    email: ryokubaka@pm.me
+    url: https://github.com/ryokubaka
 sources:
-  - https://github.com/community-charts/helm-charts
+  - https://github.com/ryokubaka/helm-charts
   - https://github.com/outline/outline/
 keywords:
   - outline
@@ -41,7 +41,7 @@ keywords:
 annotations:
   artifacthub.io/links: |
     - name: Chart Source
-      url: https://github.com/community-charts/helm-charts
+      url: https://github.com/ryokubaka/helm-charts
     - name: Chart Usage Page
       url: https://community-charts.github.io/docs/charts/outline/usage
     - name: Upstream Project
@@ -52,6 +52,8 @@ annotations:
       url: https://docs.getoutline.com/s/hosting/
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/changes: |-
+    - kind: changed
+      description: Update chart maintainer and source metadata for ryokubaka fork
     - kind: changed
       description: Update outlinewiki/outline image version to 1.7.1
       links:
@@ -71,16 +73,13 @@ annotations:
         - linux/arm/v7
   artifacthub.io/license: Apache-2.0
   artifacthub.io/maintainers: |
-    - name: burakince
-      email: burak.ince@linux.org.tr
+    - name: ryokubaka
+      email: ryokubaka@pm.me
   artifacthub.io/operator: "false"
   artifacthub.io/prerelease: "false"
   artifacthub.io/screenshots: |
     - title: Outline Home Page
       url: https://user-images.githubusercontent.com/380914/110356468-26374600-7fef-11eb-9f6a-f2cc2c8c6590.png
-  artifacthub.io/signKey: |
-    fingerprint: 939B1A0ED8AAA8E722ACCDB3B6A012EE8A76426A
-    url: https://keybase.io/communitycharts/pgp_keys.asc
 dependencies:
   - name: redis
     version: 23.2.12

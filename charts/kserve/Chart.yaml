@@ -12,9 +12,9 @@ appVersion: "v0.8.0"
 home: https://kserve.github.io/website/
 
 maintainers:
-  - name: burakince
-    email: burak.ince@linux.org.tr
-    url: https://www.burakince.net
+  - name: ryokubaka
+    email: ryokubaka@pm.me
+    url: https://github.com/ryokubaka
 
 sources:
   - http://github.com/kserve/kserve
@@ -43,8 +43,8 @@ annotations:
           url: https://github.com/orgs/kserve/packages?repo_name=kserve
   artifacthub.io/license: Apache-2.0
   artifacthub.io/maintainers: |
-    - name: burakince
-      email: burak.ince@linux.org.tr
+    - name: ryokubaka
+      email: ryokubaka@pm.me
   artifacthub.io/operator: "false"
   artifacthub.io/prerelease: "false"
 

@@ -1315,4 +1315,4 @@ helm unittest --strict --file 'unittests/**/*.yaml' charts/n8n
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| burakince | <burak.ince@linux.org.tr> | <https://www.burakince.com> |
+| ryokubaka | <ryokubaka@pm.me> | <https://github.com/ryokubaka> |

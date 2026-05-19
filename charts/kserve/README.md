@@ -123,4 +123,4 @@ helm upgrade [RELEASE_NAME] community-charts/kserve
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| burakince | <burak.ince@linux.org.tr> | <https://www.burakince.net> |
+| ryokubaka | <ryokubaka@pm.me> | <https://github.com/ryokubaka> |

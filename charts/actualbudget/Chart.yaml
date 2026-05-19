@@ -23,9 +23,9 @@ appVersion: "26.2.0"
 kubeVersion: ">=1.16.0-0"
 home: https://actualbudget.org/
 maintainers:
-  - name: burakince
-    email: burak.ince@linux.org.tr
-    url: https://www.burakince.com
+  - name: ryokubaka
+    email: ryokubaka@pm.me
+    url: https://github.com/ryokubaka
 sources:
   - https://github.com/community-charts/helm-charts
   - https://github.com/actualbudget/actual
@@ -63,8 +63,8 @@ annotations:
         - linux/arm/v7
   artifacthub.io/license: MIT
   artifacthub.io/maintainers: |
-    - name: burakince
-      email: burak.ince@linux.org.tr
+    - name: ryokubaka
+      email: ryokubaka@pm.me
   artifacthub.io/operator: "false"
   artifacthub.io/prerelease: "false"
   artifacthub.io/screenshots: |

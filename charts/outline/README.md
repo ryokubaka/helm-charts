@@ -13,7 +13,7 @@ For detailed usage instructions, configuration options, and additional informati
 ## Get Helm Repository Info
 
 ```console
-helm repo add community-charts https://community-charts.github.io/helm-charts
+helm repo add ryokubaka https://ryokubaka.github.io/helm-charts
 helm repo update
 ```
 
@@ -22,14 +22,14 @@ _See [`helm repo`](https://helm.sh/docs/helm/helm_repo/) for command documentati
 ## Installing the Chart
 
 ```console
-helm install [RELEASE_NAME] community-charts/outline
+helm install [RELEASE_NAME] ryokubaka/outline
 ```
 
 _See [configuration](#configuration) below._
 
 _See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation._
 
-> **Tip**: Search all available chart versions using `helm search repo community-charts -l`. Please don't forget to run `helm repo update` before the command.
+> **Tip**: Search all available chart versions using `helm search repo ryokubaka -l`. Please don't forget to run `helm repo update` before the command.
 
 ## Full Example
 
@@ -533,7 +533,7 @@ _See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command doc
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] community-charts/outline
+helm upgrade [RELEASE_NAME] ryokubaka/outline
 ```
 
 ## Values
@@ -907,7 +907,7 @@ helm upgrade [RELEASE_NAME] community-charts/outline
 
 ## Source Code
 
-* <https://github.com/community-charts/helm-charts>
+* <https://github.com/ryokubaka/helm-charts>
 * <https://github.com/outline/outline/>
 
 ## Chart Development
@@ -922,4 +922,4 @@ helm unittest --strict --file 'unittests/**/*.yaml' charts/outline
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| burakince | <burak.ince@linux.org.tr> | <https://www.burakince.com> |
+| ryokubaka | <ryokubaka@pm.me> | <https://github.com/ryokubaka> |
