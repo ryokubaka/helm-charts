@@ -13,7 +13,7 @@ For detailed usage instructions, configuration options, and additional informati
 ## Get Helm Repository Info
 
 ```console
-helm repo add ryokubaka https://ryokubaka.github.io/helm-charts
+helm repo add community-charts https://ryokubaka.github.io/helm-charts
 helm repo update
 ```
 
@@ -22,14 +22,14 @@ _See [`helm repo`](https://helm.sh/docs/helm/helm_repo/) for command documentati
 ## Installing the Chart
 
 ```console
-helm install [RELEASE_NAME] ryokubaka/outline
+helm install [RELEASE_NAME] community-charts/outline
 ```
 
 _See [configuration](#configuration) below._
 
 _See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation._
 
-> **Tip**: Search all available chart versions using `helm search repo ryokubaka -l`. Please don't forget to run `helm repo update` before the command.
+> **Tip**: Search all available chart versions using `helm search repo community-charts -l`. Please don't forget to run `helm repo update` before the command.
 
 ## Full Example
 
@@ -533,7 +533,7 @@ _See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command doc
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] ryokubaka/outline
+helm upgrade [RELEASE_NAME] community-charts/outline
 ```
 
 ## Values
