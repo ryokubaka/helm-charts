@@ -36073,6 +36073,84 @@ entries:
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
+          description: Update outlinewiki/outline image version to 1.8.1
+          links:
+            - name: Upstream Release Notes
+              url: https://github.com/outline/outline/releases/tag/v1.8.1
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: outline
+          image: outlinewiki/outline:1.8.1
+          platforms:
+            - linux/amd64
+            - linux/arm64
+            - linux/arm/v7
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/ryokubaka/helm-charts
+        - name: Chart Usage Page
+          url: https://community-charts.github.io/docs/charts/outline/usage
+        - name: Upstream Project
+          url: https://github.com/outline/outline/
+        - name: Official Usage Documentation
+          url: https://docs.getoutline.com/s/guide
+        - name: Official Hosting Documentation
+          url: https://docs.getoutline.com/s/hosting/
+      artifacthub.io/maintainers: |
+        - name: ryokubaka
+          email: ryokubaka@pm.me
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Outline Home Page
+          url: https://user-images.githubusercontent.com/380914/110356468-26374600-7fef-11eb-9f6a-f2cc2c8c6590.png
+    apiVersion: v2
+    appVersion: 1.8.1
+    created: "2026-06-30T18:48:38.576363466Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 23.2.12
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.1.9
+    - condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 5.4.0
+    description: A Helm chart for the fastest knowledge base for growing teams. Beautiful,
+      realtime collaborative, feature packed, and markdown compatible.
+    digest: fd4d9d95d58c89bd2e9de9107960d75c45d75d9f53580d71cf3c2346e9d06576
+    home: https://www.getoutline.com/
+    icon: https://avatars.githubusercontent.com/u/1765001?s=200&v=4
+    keywords:
+    - outline
+    - knowledge base
+    - knowledge
+    - docs
+    - documentation
+    - collaboration
+    - markdown
+    - wiki
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: ryokubaka@pm.me
+      name: ryokubaka
+      url: https://github.com/ryokubaka
+    name: outline
+    sources:
+    - https://github.com/ryokubaka/helm-charts
+    - https://github.com/outline/outline/
+    type: application
+    urls:
+    - https://github.com/ryokubaka/helm-charts/releases/download/outline-0.7.6/outline-0.7.6.tgz
+    version: 0.7.6
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
           description: Update chart maintainer and source metadata for ryokubaka fork
         - kind: changed
           description: Update outlinewiki/outline image version to 1.7.1
@@ -38799,4 +38877,4 @@ entries:
     urls:
     - https://github.com/community-charts/helm-charts/releases/download/pypiserver-0.1.0/pypiserver-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-19T19:02:21.97654973Z"
+generated: "2026-06-30T18:48:38.577572366Z"
